@@ -1,0 +1,58 @@
+.confession-input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Smaller gap */
+    margin-bottom: 40px;
+    background: rgba(255, 42, 42, 0.02);
+    padding: 15px; /* Reduced padding */
+    border-radius: 12px;
+    border: 1px solid rgba(255, 42, 42, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .input-textarea {
+    width: 100%;
+    min-height: 80px; /* Smaller height */
+    padding: 12px;
+    background: rgba(255, 42, 42, 0.04);
+    color: #fff;
+    border: 1px solid rgba(255, 42, 42, 0.1);
+    border-radius: 8px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.95rem;
+    resize: vertical;
+    transition: all 0.3s ease;
+  }
+  
+  .input-textarea:focus {
+    outline: none;
+    border-color: #ff2a2a;
+    background: rgba(255, 42, 42, 0.08);
+    box-shadow: 0 0 15px rgba(255, 42, 42, 0.2);
+  }
+  
+  .input-button {
+    padding: 10px 20px; /* Smaller padding */
+    background: linear-gradient(45deg, #ff2a2a, #ff5e5e);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .input-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(255, 42, 42, 0.4);
+  }
+  
+  .char-count {
+    color: rgba(255, 42, 42, 0.7);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    text-align: right;
+    margin-top: -6px;
+  }
